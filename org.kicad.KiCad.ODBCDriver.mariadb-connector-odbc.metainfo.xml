@@ -8,4 +8,8 @@
   <project_license>LGPL-2.1-or-later</project_license>
   <metadata_license>CC0-1.0</metadata_license>
   <update_contact>jmaibaum_AT_gmail.com</update_contact>
+  <releases>
+    <release version="3.2.0" date="2023-04-21"/>
+    <release version="3.1.18" date="2023-04-13"/>
+  </releases>
 </component>
