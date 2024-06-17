@@ -34,8 +34,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/mariadb-corporation/mariadb-connector-odbc.git
-        commit: cea6787557866b2c88fd885eff9cd0cf7eee81f8
-        tag: 3.2.1
+        commit: 97115b820151e11d9e8f59fa9e32d593c0fab8df
+        tag: 3.2.2
         x-checker-data:
           is-main-source: true
           type: git
