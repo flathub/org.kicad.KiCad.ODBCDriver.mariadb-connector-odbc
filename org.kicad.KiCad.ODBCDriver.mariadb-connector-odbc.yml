@@ -25,12 +25,6 @@ modules:
       - >
         install -Dm644 --target-directory=${FLATPAK_DEST}/share/metainfo \
           org.kicad.KiCad.ODBCDriver.mariadb-connector-odbc.metainfo.xml
-      - >
-        appstream-compose \
-          --basename=org.kicad.KiCad.ODBCDriver.mariadb-connector-odbc \
-          --prefix=${FLATPAK_DEST} \
-          --origin=flatpak \
-            org.kicad.KiCad.ODBCDriver.mariadb-connector-odbc
     sources:
       - type: git
         url: https://github.com/mariadb-corporation/mariadb-connector-odbc.git
