@@ -31,8 +31,10 @@ modules:
         commit: 7942b8ac1b232abe23ee6b839c2e630675f6a13c
         tag: 3.2.6
         x-checker-data:
+          type: json
+          url: https://api.github.com/repos/mariadb-corporation/mariadb-connector-odbc/releases/latest
+          tag-query: .tag_name
+          timestamp-query: .published_at
           is-main-source: true
-          type: git
-          tag-pattern: ^([\d\.]+)$
       - type: file
         path: org.kicad.KiCad.ODBCDriver.mariadb-connector-odbc.metainfo.xml
