@@ -13,6 +13,7 @@ modules:
     cleanup:
       - /lib/pkgconfig
     config-opts:
+      - -DCMAKE_POLICY_VERSION_MINIMUM=3.5
       - -DINSTALL_LIBDIR=lib
     post-install:
       - install -d ${FLATPAK_DEST}/template
