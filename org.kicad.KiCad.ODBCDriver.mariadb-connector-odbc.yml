@@ -36,7 +36,5 @@ modules:
           tag-query: .tag_name
           timestamp-query: .published_at
           is-main-source: true
-      - type: patch
-        path: patches/Fix-compilation-with-GCC-15.patch
       - type: file
         path: org.kicad.KiCad.ODBCDriver.mariadb-connector-odbc.metainfo.xml
